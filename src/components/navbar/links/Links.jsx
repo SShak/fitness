@@ -3,8 +3,16 @@ import Link from "next/link";
 const Links = () => {
   const links = [
     {
-      title: "Homepage",
+      title: "Home",
       path: "/",
+    },
+    {
+      title: "Services",
+      path: "/services",
+    },
+    {
+      title: "Group Class",
+      path: "/groupclass",
     },
     {
       title: "About",
