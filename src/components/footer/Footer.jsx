@@ -1,5 +1,12 @@
+import styles from "./footer.module.css";
+
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <div className={styles.passage}>
+      Phillippians 4:13 - I can do all things through Christ who gives me
+      strength.
+    </div>
+  );
 };
 
 export default Footer;
