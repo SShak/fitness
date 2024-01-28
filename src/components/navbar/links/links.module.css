@@ -3,3 +3,34 @@
   align-items: center;
   gap: 20px;
 }
+
+.menuButton,
+.mobileLinks {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+    cursor: pointer;
+  }
+
+  .mobileLinks {
+    --pxSize: 100px;
+    position: absolute;
+    top: var(--pxSize);
+    right: 0;
+    width: 50%;
+    height: calc(100vh - var(--pxSize));
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
