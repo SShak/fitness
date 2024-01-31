@@ -40,7 +40,7 @@ const Links = () => {
       </div>
       <Image
         className={styles.menuButton}
-        src="/ham.svg"
+        src="/Ham.svg"
         alt=""
         width={30}
         height={30}
