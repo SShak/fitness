@@ -1,10 +1,12 @@
+import Image from "next/image";
 import Links from "./links/Links";
 import styles from "./navbar.module.css";
 
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.logo}>Logo</div>
+      <Image src="/Logo.png" alt="" width={60} height={60} />
+      <div className={styles.slogan}>Carena Nottoli</div>
       <div>
         <Links />
       </div>

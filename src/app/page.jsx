@@ -1,5 +1,26 @@
+import styles from "./home.module.css";
+import Image from "next/image";
+
 const Home = () => {
-  return <div>Homepage</div>;
+  return (
+    <div className={styles.container}>
+      <div className={styles.textContainer}>
+        <h1>Build the Perfect Version of YOU!</h1>
+        <p>
+          4:13 Performance and Fitness strives to build the perfect version of
+          you. Meaning, no one is built the same, nor completely perfect.
+          However, we can build you a program that will get you to become the
+          best you can be. These programs will leave you feeling proud of the
+          athlete and healthy individual you become! Goals and Needs are
+          specific, and unique, to every individual. We use these as our two key
+          factors in writing the best programs specific to you
+        </p>
+      </div>
+      <div className={styles.imageContainer}>
+        <Image src="/logoFull.png" alt="" fill className={styles.logoFull} />
+      </div>
+    </div>
+  );
 };
 
 export default Home;
