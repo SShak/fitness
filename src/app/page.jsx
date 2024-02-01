@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1>Build the Perfect Version of YOU!</h1>
-        <p>
+        <h1 className={styles.slogan}>Build the Perfect Version of YOU!</h1>
+        <p className={styles.desc}>
           4:13 Performance and Fitness strives to build the perfect version of
           you. Meaning, no one is built the same, nor completely perfect.
           However, we can build you a program that will get you to become the
@@ -17,7 +17,13 @@ const Home = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <Image src="/logoFull.png" alt="" fill className={styles.logoFull} />
+        <Image
+          src="/logoFull.png"
+          alt=""
+          width={750}
+          height={650}
+          className={styles.logoFull}
+        />
       </div>
     </div>
   );
