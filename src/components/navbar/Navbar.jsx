@@ -6,7 +6,9 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <Image src="/Logo.png" alt="" width={60} height={60} />
+      <Link href="/">
+        <Image src="/Logo.png" alt="" width={60} height={60} />
+      </Link>
       <Link href="/" className={styles.slogan}>
         <h1>Carena Nottoli</h1>
       </Link>

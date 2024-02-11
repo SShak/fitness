@@ -16,7 +16,7 @@ const Home = () => {
           These programs will leave you feeling proud of the athlete and healthy
           individual you become! Goals and Needs are specific, and unique, to
           every individual. We use these as our two key factors in writing the
-          best programs specific to you
+          best programs specific to you.
         </p>
       </div>
       <div className={styles.imageContainer}>
