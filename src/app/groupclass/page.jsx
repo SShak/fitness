@@ -27,10 +27,10 @@ const GroupClass = () => {
       </div>
       <div className={styles.imageContainer}>
         <Image
-          src="/about.jpg"
+          src="/weights.jpg"
           alt=""
-          width={628}
-          height={926.067}
+          width={500}
+          height={700}
           className={styles.logoFull}
         />
       </div>

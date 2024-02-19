@@ -1,5 +1,4 @@
 import styles from "./about.module.css";
-import Image from "next/image";
 
 const AboutPage = () => {
   return (
@@ -59,15 +58,6 @@ const AboutPage = () => {
           coach, the best experiences come from what will make YOU great. Let’s
           find your why and build that perfect version of YOU!{" "}
         </p>
-      </div>
-      <div className={styles.imageContainer}>
-        <Image
-          src="/about.jpg"
-          alt=""
-          width={628}
-          height={926.067}
-          className={styles.logoFull}
-        />
       </div>
     </div>
   );

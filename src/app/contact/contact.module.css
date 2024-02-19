@@ -33,3 +33,13 @@
   background-color: var(--bgSoft);
   color: var(--text);
 }
+
+.form button {
+  background-color: #5f92d0;
+  padding: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--text);
+}
