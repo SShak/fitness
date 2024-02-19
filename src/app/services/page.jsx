@@ -22,27 +22,28 @@ const ServicesPage = () => {
           overall ability to move effectively and quickly in our prospective
           sports.
         </p>
-        <p>className={styles.desc}What to expect in these sessions:</p>
-        <p>
+        <p className={styles.desc}>What to expect in these sessions:</p>
+        <p className={styles.desc}>
+          {" "}
           1) <b>Sprint mechanics-</b> Breakdown of running form and drill work.
         </p>
-        <p>
+        <p className={styles.desc}>
           2) <b> Acceleration work-</b> Reaction Timing and Top Speed training.
           Translating sprint mechanics into these fast bursts of speed.
         </p>
-        <p>
+        <p className={styles.desc}>
           3) <b> Agility-</b> Change in direction training, Coordination, and
           Foot Speed.
         </p>
-        <p>
+        <p className={styles.desc}>
           4) <b> Workouts-</b> Every workout will use aspects of Sprint
           Mechanics, Accelerations, and Agility all to improve Speed.
         </p>
-        <p>Workout Examples include:</p> Resistance training (Band Resisted
-        Sprints, Hills, Sleds, Parachutes), Interval training (Varying distances
-        at high intensity), Plyometrics Training (Explosive Power), Change in
-        Direction training, Circuit training, etc.
-        <p>
+        <p className={styles.desc}>Workout Examples include:</p> Resistance
+        training (Band Resisted Sprints, Hills, Sleds, Parachutes), Interval
+        training (Varying distances at high intensity), Plyometrics Training
+        (Explosive Power), Change in Direction training, Circuit training, etc.
+        <p className={styles.desc}>
           Strength and Power Training- Want to take your Strength and Power to
           the next level?
         </p>
