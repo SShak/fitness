@@ -16,12 +16,11 @@ const GroupClass = () => {
         <p className={styles.desc}>
           Classes fill up fast so you will want to get information on booking!{" "}
         </p>
-
-        <div>
-          <button className={styles.button}>
-            <Link href="/contact">Contact</Link>
-          </button>
-        </div>
+        <Link href="/contact">
+          <div>
+            <button className={styles.button}>Contact</button>
+          </div>
+        </Link>
       </div>
       <div className={styles.imageContainer}>
         <Image
