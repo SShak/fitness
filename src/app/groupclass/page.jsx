@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./groupclass.module.css";
 import Image from "next/image";
 
@@ -7,8 +8,20 @@ const GroupClass = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.slogan}>Group Classes</h1>
         <p className={styles.desc}>
-          For interest in group classes blah blah blah contact me below{" "}
+          For interest in group classes please contact me for inquires.
         </p>
+        <p className={styles.desc}>
+          The availability for group classes is constantly changing.
+        </p>
+        <p className={styles.desc}>
+          Classes fill up fast so you will want to get information on booking!{" "}
+        </p>
+
+        <div>
+          <button className={styles.button}>
+            <Link href="/contact">Contact</Link>
+          </button>
+        </div>
       </div>
       <div className={styles.imageContainer}>
         <Image
