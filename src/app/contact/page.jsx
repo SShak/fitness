@@ -33,7 +33,7 @@ const ContactPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src="/about.jpg" alt="" fill className={styles.img} />
+        <Image src="/cover.jpeg" alt="" fill className={styles.img} />
       </div>
       <div className={styles.formContainer}>
         <form

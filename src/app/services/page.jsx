@@ -1,4 +1,5 @@
 import styles from "./services.module.css";
+import Image from "next/image";
 
 const ServicesPage = () => {
   return (
@@ -16,7 +17,37 @@ const ServicesPage = () => {
           every individual. We use these as our two key factors in writing the
           best programs specific to you.
         </h1>
+      </div>
 
+      <div className={styles.imgContainer}>
+        <Image
+          src="/2.JPG"
+          alt=""
+          width={500}
+          height={700}
+          className={styles.img}
+        />
+        <div className={styles.subContainer}>
+          <Image
+            src="/1.JPG"
+            alt=""
+            width={500}
+            height={700}
+            className={styles.img}
+          />
+        </div>
+        <div className={styles.subContainer}>
+          <Image
+            src="/3.JPG"
+            alt=""
+            width={500}
+            height={700}
+            className={styles.img}
+          />
+        </div>
+      </div>
+
+      <div className={styles.textContainer}>
         <h1>Speed and Agility Training-</h1>
         <p className={styles.desc}>
           Want to take your speed to the next level? The combination of speed
@@ -46,6 +77,35 @@ const ServicesPage = () => {
           Training (Explosive Power), Change in Direction training, Circuit
           training, etc.
         </p>
+      </div>
+      <div className={styles.imgContainer}>
+        <Image
+          src="/4.JPG"
+          alt=""
+          width={500}
+          height={700}
+          className={styles.img}
+        />
+        <div className={styles.subContainer}>
+          <Image
+            src="/6.JPG"
+            alt=""
+            width={500}
+            height={700}
+            className={styles.img}
+          />
+        </div>
+        <div className={styles.subContainer}>
+          <Image
+            src="/5.JPG"
+            alt=""
+            width={500}
+            height={700}
+            className={styles.img}
+          />
+        </div>
+      </div>
+      <div className={styles.textContainer}>
         <h1>Strength and Power Training-</h1>
         <p className={styles.desc}>
           Want to take your Strength and Power to the next level?
@@ -67,6 +127,35 @@ const ServicesPage = () => {
         <p className={styles.desc}>
           5) Daily tracking of weights- Keep track of progress!
         </p>
+      </div>
+      <div className={styles.imgContainer}>
+        <Image
+          src="/7.JPG"
+          alt=""
+          width={500}
+          height={700}
+          className={styles.img}
+        />
+        <div className={styles.subContainer}>
+          <Image
+            src="/8.JPG"
+            alt=""
+            width={500}
+            height={700}
+            className={styles.img}
+          />
+        </div>
+        <div className={styles.subContainer}>
+          <Image
+            src="/9.JPG"
+            alt=""
+            width={500}
+            height={700}
+            className={styles.img}
+          />
+        </div>
+      </div>
+      <div className={styles.textContainer}>
         <h1 className={styles.slogan}>
           Adult Fitness- Overall Health and Wellness Training
         </h1>

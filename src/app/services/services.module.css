@@ -1,6 +1,7 @@
 .container {
   display: flex;
   gap: 10px;
+  flex-direction: column;
 }
 
 .textContainer {
@@ -18,7 +19,19 @@
   font-size: 20px;
 }
 
-.imageContainer {
+.imgContainer {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  position: relative;
+  flex-direction: row;
+}
+
+.img {
+  object-fit: contain;
+}
+
+.subContainer {
   flex: 1;
   position: relative;
 }
