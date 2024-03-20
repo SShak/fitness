@@ -26,12 +26,3 @@
   position: relative;
   flex-direction: row;
 }
-
-.img {
-  object-fit: contain;
-}
-
-.subContainer {
-  flex: 1;
-  position: relative;
-}
