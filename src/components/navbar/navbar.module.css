@@ -14,3 +14,9 @@
   font-size: 20px;
   font-weigth: bold;
 }
+
+@media (max-width: 1024px) {
+  .slogan {
+    visibility: hidden;
+  }
+}

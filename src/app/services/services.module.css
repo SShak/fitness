@@ -26,3 +26,9 @@
   position: relative;
   flex-direction: row;
 }
+
+@media (max-width: 1024px) {
+  .imgContainer {
+    visibility: hidden;
+  }
+}
