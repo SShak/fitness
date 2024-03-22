@@ -6,7 +6,19 @@
   background-color: #5f92d0;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    visibility: hidden;
+  }
+}
+
 .passage {
-  font-size: 15px;
+  font-size: 12px;
   font-weigth: bold;
+}
+
+@media (max-width: 1024px) {
+  .passage {
+    visibility: hidden;
+  }
 }

@@ -43,3 +43,9 @@
   cursor: pointer;
   color: var(--text);
 }
+
+@media (max-width: 1024px) {
+  .imgContainer {
+    visibility: hidden;
+  }
+}

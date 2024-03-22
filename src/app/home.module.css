@@ -22,3 +22,9 @@
   flex: 1;
   position: relative;
 }
+
+@media (max-width: 1024px) {
+  .imageContainer {
+    visibility: hidden;
+  }
+}
